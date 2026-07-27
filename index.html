@@ -105,13 +105,13 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <header class="hero">
 <div class="kicker">Evolution simulation report</div>
 <h1>Simulation 0</h1>
-<div class="sub">Run 20260727_110527 &middot; report generated 2026-07-27 11:25:43</div>
+<div class="sub">Run 20260727_110527 &middot; report generated 2026-07-27 11:32:12</div>
 <div class="hero-meta">
-<div class="hm"><div class="l">Epochs</div><div class="v">3</div></div>
+<div class="hm"><div class="l">Epochs</div><div class="v">4</div></div>
 <div class="hm"><div class="l">Days / epoch</div><div class="v">40</div></div>
 <div class="hm"><div class="l">Iterations / day</div><div class="v">300</div></div>
 <div class="hm"><div class="l">Players</div><div class="v">52</div></div>
-<div class="hm"><div class="l">Running time</div><div class="v">00:22:03</div></div>
+<div class="hm"><div class="l">Running time</div><div class="v">00:29:09</div></div>
 </div>
 </header>
 <nav class="toc"><a href="#overview">Overview</a><a href="#hyperparams">Hyperparameters</a><a href="#daily">Daily behaviour</a><a href="#goals">Optimizer goals</a><a href="#config">Configuration</a></nav>
@@ -127,12 +127,13 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">32</td><td class="num">-0.582</td><td class="num">1255.0</td><td class="num">0.0%</td><td class="num">-0.111</td><td class="num">2869.7</td><td class="num">0.0%</td></tr>
 <tr><td class="num">1</td><td class="num">26</td><td class="num">-0.559</td><td class="num">1295.1</td><td class="num">0.0%</td><td class="num">0.039</td><td class="num">3161.8</td><td class="num">0.0%</td></tr>
 <tr><td class="num">2</td><td class="num">26</td><td class="num">-0.561</td><td class="num">1460.9</td><td class="num">0.0%</td><td class="num">0.155</td><td class="num">2621.4</td><td class="num">0.0%</td></tr>
+<tr><td class="num">3</td><td class="num">28</td><td class="num">-0.530</td><td class="num">1441.7</td><td class="num">0.0%</td><td class="num">0.010</td><td class="num">3314.4</td><td class="num">0.0%</td></tr>
 </tbody>
 </table></div>
 <figure class="chart">
 <figcaption class="chart-head"><span class="chart-title">Average survival time per epoch</span><span class="legend"><span class="key"><span class="sw c0"></span>Players</span><span class="key kd"><span class="sw cc0"></span>Controls</span></span></figcaption>
 <div class="chart-body">
-<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Average survival time per epoch" data-n="3" data-ymin="0" data-ymax="4000" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Average survival time per epoch" data-n="4" data-ymin="0" data-ymax="4000" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
 <line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
 <text class="tick" x="49" y="358" text-anchor="end">0</text>
 <line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
@@ -145,18 +146,20 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="49" y="34" text-anchor="end">4,000</text>
 <line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
 <text class="tick" x="58" y="372" text-anchor="middle">0</text>
-<line class="gl" x1="501" y1="354" x2="501" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="501" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="353.3" y1="354" x2="353.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="353.3" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="648.7" y1="354" x2="648.7" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="648.7" y="372" text-anchor="middle">2</text>
 <line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="944" y="372" text-anchor="middle">2</text>
+<text class="tick" x="944" y="372" text-anchor="middle">3</text>
 <text class="axlab" x="8" y="16">Survival time (iterations)</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Epoch</text>
-<clipPath id="cp26"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp26)">
-<polyline class="ln c0" data-name="Players" data-vals="1255,1295.1,1460.9" points="58,252.3 501,249.1 944,235.7"/>
-<circle class="dot c0" cx="944" cy="235.7" r="4"/>
-<polyline class="ln dash cc0" data-name="Controls" data-vals="2869.7,3161.8,2621.4" points="58,121.6 501,97.9 944,141.7"/>
-<circle class="dot cc0" cx="944" cy="141.7" r="4"/>
+<clipPath id="cp46"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp46)">
+<polyline class="ln c0" data-name="Players" data-vals="1255,1295.1,1460.9,1441.7" points="58,252.3 353.3,249.1 648.7,235.7 944,237.2"/>
+<circle class="dot c0" cx="944" cy="237.2" r="4"/>
+<polyline class="ln dash cc0" data-name="Controls" data-vals="2869.7,3161.8,2621.4,3314.4" points="58,121.6 353.3,97.9 648.7,141.7 944,85.5"/>
+<circle class="dot cc0" cx="944" cy="85.5" r="4"/>
 </g>
 </svg>
 <div class="tip" hidden></div>
@@ -165,7 +168,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <figure class="chart">
 <figcaption class="chart-head"><span class="chart-title">Top survival time per epoch</span><span class="legend"><span class="key"><span class="sw c0"></span>Best player</span><span class="key kd"><span class="sw cc0"></span>Best control</span></span></figcaption>
 <div class="chart-body">
-<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top survival time per epoch" data-n="3" data-ymin="0" data-ymax="10000" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top survival time per epoch" data-n="4" data-ymin="0" data-ymax="10000" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
 <line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
 <text class="tick" x="49" y="358" text-anchor="end">0</text>
 <line class="gl" x1="58" y1="289.2" x2="944" y2="289.2" shape-rendering="crispEdges"/>
@@ -180,18 +183,20 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="49" y="34" text-anchor="end">10,000</text>
 <line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
 <text class="tick" x="58" y="372" text-anchor="middle">0</text>
-<line class="gl" x1="501" y1="354" x2="501" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="501" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="353.3" y1="354" x2="353.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="353.3" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="648.7" y1="354" x2="648.7" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="648.7" y="372" text-anchor="middle">2</text>
 <line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="944" y="372" text-anchor="middle">2</text>
+<text class="tick" x="944" y="372" text-anchor="middle">3</text>
 <text class="axlab" x="8" y="16">Survival time (iterations)</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Epoch</text>
-<clipPath id="cp27"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp27)">
-<polyline class="ln c0" data-name="Best player" data-vals="1780,3807,7659" points="58,296.3 501,230.7 944,105.8"/>
-<circle class="dot c0" cx="944" cy="105.8" r="4"/>
-<polyline class="ln dash cc0" data-name="Best control" data-vals="9490,7522,5639" points="58,46.5 501,110.3 944,171.3"/>
-<circle class="dot cc0" cx="944" cy="171.3" r="4"/>
+<clipPath id="cp47"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp47)">
+<polyline class="ln c0" data-name="Best player" data-vals="1780,3807,7659,6342" points="58,296.3 353.3,230.7 648.7,105.8 944,148.5"/>
+<circle class="dot c0" cx="944" cy="148.5" r="4"/>
+<polyline class="ln dash cc0" data-name="Best control" data-vals="9490,7522,5639,8377" points="58,46.5 353.3,110.3 648.7,171.3 944,82.6"/>
+<circle class="dot cc0" cx="944" cy="82.6" r="4"/>
 </g>
 </svg>
 <div class="tip" hidden></div>
@@ -200,7 +205,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <figure class="chart">
 <figcaption class="chart-head"><span class="chart-title">Average avg_energy per epoch</span><span class="legend"><span class="key"><span class="sw c0"></span>Players</span><span class="key kd"><span class="sw cc0"></span>Controls</span></span></figcaption>
 <div class="chart-body">
-<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Average avg_energy per epoch" data-n="3" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Average avg_energy per epoch" data-n="4" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
 <line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
 <text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
 <line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
@@ -213,18 +218,20 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="49" y="34" text-anchor="end">1.0</text>
 <line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
 <text class="tick" x="58" y="372" text-anchor="middle">0</text>
-<line class="gl" x1="501" y1="354" x2="501" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="501" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="353.3" y1="354" x2="353.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="353.3" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="648.7" y1="354" x2="648.7" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="648.7" y="372" text-anchor="middle">2</text>
 <line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="944" y="372" text-anchor="middle">2</text>
+<text class="tick" x="944" y="372" text-anchor="middle">3</text>
 <text class="axlab" x="8" y="16">Average energy</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Epoch</text>
-<clipPath id="cp28"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp28)">
-<polyline class="ln c0" data-name="Players" data-vals="-0.58201,-0.55943,-0.56069" points="58,286.3 501,282.6 944,282.8"/>
-<circle class="dot c0" cx="944" cy="282.8" r="4"/>
-<polyline class="ln dash cc0" data-name="Controls" data-vals="-0.1112,0.038969,0.15491" points="58,210 501,185.7 944,166.9"/>
-<circle class="dot cc0" cx="944" cy="166.9" r="4"/>
+<clipPath id="cp48"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp48)">
+<polyline class="ln c0" data-name="Players" data-vals="-0.58201,-0.55943,-0.56069,-0.52962" points="58,286.3 353.3,282.6 648.7,282.8 944,277.8"/>
+<circle class="dot c0" cx="944" cy="277.8" r="4"/>
+<polyline class="ln dash cc0" data-name="Controls" data-vals="-0.1112,0.038969,0.15491,0.010248" points="58,210 353.3,185.7 648.7,166.9 944,190.3"/>
+<circle class="dot cc0" cx="944" cy="190.3" r="4"/>
 </g>
 </svg>
 <div class="tip" hidden></div>
@@ -233,7 +240,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <figure class="chart">
 <figcaption class="chart-head"><span class="chart-title">Top avg_energy per epoch</span><span class="legend"><span class="key"><span class="sw c0"></span>Best player</span><span class="key kd"><span class="sw cc0"></span>Best control</span></span></figcaption>
 <div class="chart-body">
-<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top avg_energy per epoch" data-n="3" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top avg_energy per epoch" data-n="4" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
 <line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
 <text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
 <line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
@@ -246,18 +253,20 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="49" y="34" text-anchor="end">1.0</text>
 <line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
 <text class="tick" x="58" y="372" text-anchor="middle">0</text>
-<line class="gl" x1="501" y1="354" x2="501" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="501" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="353.3" y1="354" x2="353.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="353.3" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="648.7" y1="354" x2="648.7" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="648.7" y="372" text-anchor="middle">2</text>
 <line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="944" y="372" text-anchor="middle">2</text>
+<text class="tick" x="944" y="372" text-anchor="middle">3</text>
 <text class="axlab" x="8" y="16">Average energy</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Epoch</text>
-<clipPath id="cp29"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp29)">
-<polyline class="ln c0" data-name="Best player" data-vals="0,0.15371,0.49727" points="58,192 501,167.1 944,111.4"/>
-<circle class="dot c0" cx="944" cy="111.4" r="4"/>
-<polyline class="ln dash cc0" data-name="Best control" data-vals="0.34863,0.61188,0.42518" points="58,135.5 501,92.9 944,123.1"/>
-<circle class="dot cc0" cx="944" cy="123.1" r="4"/>
+<clipPath id="cp49"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp49)">
+<polyline class="ln c0" data-name="Best player" data-vals="0,0.15371,0.49727,0.54345" points="58,192 353.3,167.1 648.7,111.4 944,104"/>
+<circle class="dot c0" cx="944" cy="104" r="4"/>
+<polyline class="ln dash cc0" data-name="Best control" data-vals="0.34863,0.61188,0.42518,0.36068" points="58,135.5 353.3,92.9 648.7,123.1 944,133.6"/>
+<circle class="dot cc0" cx="944" cy="133.6" r="4"/>
 </g>
 </svg>
 <div class="tip" hidden></div>
@@ -266,7 +275,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <figure class="chart">
 <figcaption class="chart-head"><span class="chart-title">Survival rate per epoch</span><span class="legend"><span class="key"><span class="sw c0"></span>Players</span><span class="key kd"><span class="sw cc0"></span>Controls</span></span></figcaption>
 <div class="chart-body">
-<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Survival rate per epoch" data-n="3" data-ymin="0" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Survival rate per epoch" data-n="4" data-ymin="0" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Epoch">
 <line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
 <text class="tick" x="49" y="358" text-anchor="end">0.0</text>
 <line class="gl" x1="58" y1="289.2" x2="944" y2="289.2" shape-rendering="crispEdges"/>
@@ -281,17 +290,19 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="49" y="34" text-anchor="end">1.0</text>
 <line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
 <text class="tick" x="58" y="372" text-anchor="middle">0</text>
-<line class="gl" x1="501" y1="354" x2="501" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="501" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="353.3" y1="354" x2="353.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="353.3" y="372" text-anchor="middle">1</text>
+<line class="gl" x1="648.7" y1="354" x2="648.7" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="648.7" y="372" text-anchor="middle">2</text>
 <line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
-<text class="tick" x="944" y="372" text-anchor="middle">2</text>
+<text class="tick" x="944" y="372" text-anchor="middle">3</text>
 <text class="axlab" x="8" y="16">Survival rate (%)</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Epoch</text>
-<clipPath id="cp30"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp30)">
-<polyline class="ln c0" data-name="Players" data-vals="0,0,0" points="58,354 501,354 944,354"/>
+<clipPath id="cp50"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp50)">
+<polyline class="ln c0" data-name="Players" data-vals="0,0,0,0" points="58,354 353.3,354 648.7,354 944,354"/>
 <circle class="dot c0" cx="944" cy="354" r="4"/>
-<polyline class="ln dash cc0" data-name="Controls" data-vals="0,0,0" points="58,354 501,354 944,354"/>
+<polyline class="ln dash cc0" data-name="Controls" data-vals="0,0,0,0" points="58,354 353.3,354 648.7,354 944,354"/>
 <circle class="dot cc0" cx="944" cy="354" r="4"/>
 </g>
 </svg>
@@ -310,6 +321,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">0.29080064802095384 <span class="soft">(1.064)</span></td><td class="num">5.7650025845914623 <span class="soft">(0.461)</span></td><td class="num">1.5747798131174833 <span class="soft">(0.486)</span></td><td class="num">0.50383441217053293 <span class="soft">(0.587)</span></td><td class="num">0.50811337308511506 <span class="soft">(0.572)</span></td></tr>
 <tr><td class="num">1</td><td class="num">0.24773912602725509 <span class="soft">(1.19)</span></td><td class="num">5.69849326090704 <span class="soft">(0.48)</span></td><td class="num">1.4408142561247885 <span class="soft">(0.408)</span></td><td class="num">0.48518974351534067 <span class="soft">(0.626)</span></td><td class="num">0.53674425505468082 <span class="soft">(0.553)</span></td></tr>
 <tr><td class="num">2</td><td class="num">0.16397519921389267 <span class="soft">(1.846)</span></td><td class="num">5.1866739979959986 <span class="soft">(0.561)</span></td><td class="num">1.3829684022107187 <span class="soft">(0.43)</span></td><td class="num">0.43262373928523351 <span class="soft">(0.596)</span></td><td class="num">0.4771435568903839 <span class="soft">(0.581)</span></td></tr>
+<tr><td class="num">3</td><td class="num">0.11460685244906686 <span class="soft">(2.094)</span></td><td class="num">4.824880332944371 <span class="soft">(0.519)</span></td><td class="num">1.3294846731918653 <span class="soft">(0.446)</span></td><td class="num">0.41961871690330732 <span class="soft">(0.563)</span></td><td class="num">0.48240231451122512 <span class="soft">(0.482)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -320,6 +332,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">5.6611106738664834 <span class="soft">(0.556)</span></td><td class="num">0.52407984263386764 <span class="soft">(0.953)</span></td><td class="num">90.314101391354455 <span class="soft">(0.626)</span></td><td class="num">209.93177427162701 <span class="soft">(0.694)</span></td><td class="num">4.6062437439727963 <span class="soft">(0.63)</span></td></tr>
 <tr><td class="num">1</td><td class="num">4.7689388363887319 <span class="soft">(0.65)</span></td><td class="num">0.42615008849190883 <span class="soft">(1.172)</span></td><td class="num">107.33328553503732 <span class="soft">(0.479)</span></td><td class="num">218.66593958990825 <span class="soft">(0.615)</span></td><td class="num">4.3453998830587253 <span class="soft">(0.639)</span></td></tr>
 <tr><td class="num">2</td><td class="num">4.2148723590260619 <span class="soft">(0.671)</span></td><td class="num">0.62889392382401765 <span class="soft">(0.791)</span></td><td class="num">97.579389164488489 <span class="soft">(0.499)</span></td><td class="num">289.37870434225908 <span class="soft">(0.498)</span></td><td class="num">4.6968534540653346 <span class="soft">(0.564)</span></td></tr>
+<tr><td class="num">3</td><td class="num">3.3660389421316173 <span class="soft">(0.794)</span></td><td class="num">0.53661927041602842 <span class="soft">(0.922)</span></td><td class="num">90.518693777190634 <span class="soft">(0.553)</span></td><td class="num">319.74576992358908 <span class="soft">(0.436)</span></td><td class="num">4.0132576186317479 <span class="soft">(0.61)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -330,6 +343,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">5.5666843615018635 <span class="soft">(0.508)</span></td><td class="num">0.41894475468028247 <span class="soft">(0.686)</span></td><td class="num">6.1618159718031293 <span class="soft">(0.492)</span></td><td class="num">1.0476090505462645 <span class="soft">(0.029)</span></td><td class="num">1.0455253355782441 <span class="soft">(0.027)</span></td></tr>
 <tr><td class="num">1</td><td class="num">5.180298786631373 <span class="soft">(0.542)</span></td><td class="num">0.47175003438268476 <span class="soft">(0.539)</span></td><td class="num">5.8095992678283457 <span class="soft">(0.511)</span></td><td class="num">1.0482842004727599 <span class="soft">(0.028)</span></td><td class="num">1.0414902860531654 <span class="soft">(0.024)</span></td></tr>
 <tr><td class="num">2</td><td class="num">3.9333163563790219 <span class="soft">(0.707)</span></td><td class="num">0.4880039536188156 <span class="soft">(0.545)</span></td><td class="num">3.8744278452569931 <span class="soft">(0.817)</span></td><td class="num">1.0508576648022989 <span class="soft">(0.029)</span></td><td class="num">1.0491988386245146 <span class="soft">(0.025)</span></td></tr>
+<tr><td class="num">3</td><td class="num">3.8349270953536854 <span class="soft">(0.703)</span></td><td class="num">0.46767884569505103 <span class="soft">(0.444)</span></td><td class="num">2.8427684271228149 <span class="soft">(1.086)</span></td><td class="num">1.0588348399044651 <span class="soft">(0.031)</span></td><td class="num">1.0517419295691512 <span class="soft">(0.022)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -340,6 +354,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">5.3017609539253456 <span class="soft">(0.499)</span></td><td class="num">0.51172921341527333 <span class="soft">(0.571)</span></td><td class="num">0.54192680472748489 <span class="soft">(0.516)</span></td><td class="num">4.9885309891044862 <span class="soft">(0.53)</span></td><td class="num">51.477777632747276 <span class="soft">(0.591)</span></td></tr>
 <tr><td class="num">1</td><td class="num">4.4063172077035571 <span class="soft">(0.534)</span></td><td class="num">0.51763713959633495 <span class="soft">(0.573)</span></td><td class="num">0.62175607953840673 <span class="soft">(0.42)</span></td><td class="num">5.4480901853945278 <span class="soft">(0.528)</span></td><td class="num">51.556832517639165 <span class="soft">(0.621)</span></td></tr>
 <tr><td class="num">2</td><td class="num">5.3023194713341466 <span class="soft">(0.458)</span></td><td class="num">0.50923023804070655 <span class="soft">(0.58)</span></td><td class="num">0.61433184453603307 <span class="soft">(0.426)</span></td><td class="num">5.744777270648183 <span class="soft">(0.464)</span></td><td class="num">60.176311522018558 <span class="soft">(0.457)</span></td></tr>
+<tr><td class="num">3</td><td class="num">5.2443846839437906 <span class="soft">(0.394)</span></td><td class="num">0.5756976104988073 <span class="soft">(0.421)</span></td><td class="num">0.63870576447799787 <span class="soft">(0.373)</span></td><td class="num">6.2281769138340177 <span class="soft">(0.37)</span></td><td class="num">68.649901671546857 <span class="soft">(0.386)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -350,6 +365,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">49607.673478067147 <span class="soft">(0.599)</span></td><td class="num">4.615161992433328 <span class="soft">(0.574)</span></td><td class="num">4.5784041671896336 <span class="soft">(0.669)</span></td><td class="num">2.9366357162256844 <span class="soft">(0.49)</span></td><td class="num">3.0187328316382396 <span class="soft">(0.471)</span></td></tr>
 <tr><td class="num">1</td><td class="num">40563.93393316018 <span class="soft">(0.707)</span></td><td class="num">4.7765629586905911 <span class="soft">(0.529)</span></td><td class="num">5.2894784473955117 <span class="soft">(0.563)</span></td><td class="num">3.245399461651016 <span class="soft">(0.382)</span></td><td class="num">3.3503544582385181 <span class="soft">(0.375)</span></td></tr>
 <tr><td class="num">2</td><td class="num">52224.724220750686 <span class="soft">(0.496)</span></td><td class="num">3.8308489533068921 <span class="soft">(0.682)</span></td><td class="num">6.7869637550118309 <span class="soft">(0.41)</span></td><td class="num">3.6823647580634167 <span class="soft">(0.35)</span></td><td class="num">2.8657137055527309 <span class="soft">(0.516)</span></td></tr>
+<tr><td class="num">3</td><td class="num">56495.057855668536 <span class="soft">(0.439)</span></td><td class="num">3.4649262736225648 <span class="soft">(0.839)</span></td><td class="num">7.9280143302207957 <span class="soft">(0.321)</span></td><td class="num">4.0913817294751622 <span class="soft">(0.263)</span></td><td class="num">3.0725608520975878 <span class="soft">(0.404)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -360,6 +376,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">3.2883164834466676 <span class="soft">(0.491)</span></td><td class="num">0.40564729983753944 <span class="soft">(1.21)</span></td><td class="num">0.52993483279996612 <span class="soft">(1.177)</span></td><td class="num">0.50843734197712598 <span class="soft">(12.76)</span></td><td class="num">-0.38887867796308656 <span class="soft">(-1.623)</span></td></tr>
 <tr><td class="num">1</td><td class="num">2.9237625247998147 <span class="soft">(0.475)</span></td><td class="num">0.51814889530396313 <span class="soft">(0.964)</span></td><td class="num">0.70911946954919147 <span class="soft">(0.941)</span></td><td class="num">0.90705357910045159 <span class="soft">(5.76)</span></td><td class="num">-0.62756947643425209 <span class="soft">(-0.766)</span></td></tr>
 <tr><td class="num">2</td><td class="num">3.268410350719595 <span class="soft">(0.43)</span></td><td class="num">0.73478357646198178 <span class="soft">(0.652)</span></td><td class="num">0.34632223596820277 <span class="soft">(1.815)</span></td><td class="num">-1.7935112204001866 <span class="soft">(-2.697)</span></td><td class="num">-0.54356217098262216 <span class="soft">(-0.94)</span></td></tr>
+<tr><td class="num">3</td><td class="num">3.6380667343181412 <span class="soft">(0.39)</span></td><td class="num">0.74533929205306171 <span class="soft">(0.632)</span></td><td class="num">0.17538371679667891 <span class="soft">(2.359)</span></td><td class="num">-2.5974858885716907 <span class="soft">(-1.551)</span></td><td class="num">-0.58106647463532757 <span class="soft">(-0.71)</span></td></tr>
 </tbody>
 </table></div>
 <div class="tbl"><table>
@@ -370,6 +387,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <tr><td class="num">0</td><td class="num">2.2320599364791174 <span class="soft">(0.332)</span></td></tr>
 <tr><td class="num">1</td><td class="num">1.8978286188736391 <span class="soft">(0.406)</span></td></tr>
 <tr><td class="num">2</td><td class="num">1.6804980636303224 <span class="soft">(0.467)</span></td></tr>
+<tr><td class="num">3</td><td class="num">1.5905047983314169 <span class="soft">(0.456)</span></td></tr>
 </tbody>
 </table></div>
 </section>
@@ -452,8 +470,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="915.4" y="372" text-anchor="middle">30</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp31"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp31)">
+<clipPath id="cp51"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp51)">
 <polyline class="ln c0" data-name="Player 36" data-vals="-0.875,0,-0.92857,0,-0.6,0" points="58,333.8 86.6,192 115.2,342.4 143.7,192 172.3,289.2 200.9,192"/>
 <circle class="dot c0" cx="200.9" cy="192" r="4"/>
 <polyline class="ln c1" data-name="Player 33" data-vals="-0.92593,0,0,0,0" points="58,342 86.6,192 115.2,192 143.7,192 172.3,192"/>
@@ -501,8 +519,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="915.4" y="372" text-anchor="middle">30</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp32"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp32)">
+<clipPath id="cp52"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp52)">
 <polyline class="ln c0" data-name="Player 36" data-vals="0.8,0,0,0,0,0" points="58,62.4 86.6,192 115.2,192 143.7,192 172.3,192 200.9,192"/>
 <circle class="dot c0" cx="200.9" cy="192" r="4"/>
 <polyline class="ln c1" data-name="Player 33" data-vals="0,0,0,0,0" points="58,192 86.6,192 115.2,192 143.7,192 172.3,192"/>
@@ -550,8 +568,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="915.4" y="372" text-anchor="middle">30</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp33"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp33)">
+<clipPath id="cp53"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp53)">
 <polyline class="ln c0" data-name="Player 36" data-vals="0.91241,1,0.93382,0.6,0.6,0.6" points="58,44.2 86.6,30 115.2,40.7 143.7,94.8 172.3,94.8 200.9,94.8"/>
 <circle class="dot c0" cx="200.9" cy="94.8" r="4"/>
 <polyline class="ln c1" data-name="Player 33" data-vals="1,1,1,1,1" points="58,30 86.6,30 115.2,30 143.7,30 172.3,30"/>
@@ -599,8 +617,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="915.4" y="372" text-anchor="middle">30</text>
 <text class="axlab" x="8" y="16">KPI</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp34"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp34)">
+<clipPath id="cp54"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp54)">
 <polyline class="ln c0" data-name="Player 36" data-vals="0.53807,1,0.30097,0.6,0.50625,0.6" points="58,104.8 86.6,30 115.2,143.2 143.7,94.8 172.3,110 200.9,94.8"/>
 <circle class="dot c0" cx="200.9" cy="94.8" r="4"/>
 <polyline class="ln c1" data-name="Player 33" data-vals="0.36275,1,1,1,1" points="58,133.2 86.6,30 115.2,30 143.7,30 172.3,30"/>
@@ -648,8 +666,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="915.4" y="372" text-anchor="middle">30</text>
 <text class="axlab" x="8" y="16">Average energy</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp35"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp35)">
+<clipPath id="cp55"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp55)">
 <polyline class="ln c0" data-name="Player 36" data-vals="0.11469,-0.071702,-0.36769,-0.61592,-0.62165,-0.83059" points="58,173.4 86.6,203.6 115.2,251.6 143.7,291.8 172.3,292.7 200.9,326.6"/>
 <circle class="dot c0" cx="200.9" cy="326.6" r="4"/>
 <polyline class="ln c1" data-name="Player 33" data-vals="0.30438,0.045176,-0.25746,-0.5601,-0.85624" points="58,142.7 86.6,184.7 115.2,233.7 143.7,282.7 172.3,330.7"/>
@@ -745,8 +763,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp36"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp36)">
+<clipPath id="cp56"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp56)">
 <polyline class="ln c0" data-name="Player 20" data-vals="-1,-0.70588,-0.71429,-0.6,-0.27273,-1,0,-1,-0.47826,-0.48148,-0.71429,-0.88889,-1" points="58,354 93.4,306.4 128.9,307.7 164.3,289.2 199.8,236.2 235.2,354 270.6,192 306.1,354 341.5,269.5 377,270 412.4,307.7 447.8,336 483.3,354"/>
 <circle class="dot c0" cx="483.3" cy="354" r="4"/>
 <polyline class="ln c1" data-name="Player 13" data-vals="-0.5,-1,0,0,0,0" points="58,273 93.4,354 128.9,192 164.3,192 199.8,192 235.2,192"/>
@@ -792,8 +810,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp37"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp37)">
+<clipPath id="cp57"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp57)">
 <polyline class="ln c0" data-name="Player 20" data-vals="0.55556,0.2,0.96226,-0.14286,0.78947,-0.33333,0.27273,0.77273,0.84615,0.75,0.88889,0.076923,1" points="58,102 93.4,159.6 128.9,36.1 164.3,215.1 199.8,64.1 235.2,246 270.6,147.8 306.1,66.8 341.5,54.9 377,70.5 412.4,48 447.8,179.5 483.3,30"/>
 <circle class="dot c0" cx="483.3" cy="30" r="4"/>
 <polyline class="ln c1" data-name="Player 13" data-vals="1,1,0.33333,0,0,0" points="58,30 93.4,30 128.9,138 164.3,192 199.8,192 235.2,192"/>
@@ -839,8 +857,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp38"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp38)">
+<clipPath id="cp58"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp58)">
 <polyline class="ln c0" data-name="Player 20" data-vals="0.49624,0.65517,0.35833,0.4964,0.39259,0.48339,0.40364,0.67227,0.41667,0.68872,0.64,0.45725,0.74227" points="58,111.6 93.4,85.9 128.9,133.9 164.3,111.6 199.8,128.4 235.2,113.7 270.6,126.6 306.1,83.1 341.5,124.5 377,80.4 412.4,88.3 447.8,117.9 483.3,71.8"/>
 <circle class="dot c0" cx="483.3" cy="71.8" r="4"/>
 <polyline class="ln c1" data-name="Player 13" data-vals="0.95775,0.90972,1,1,1,1" points="58,36.8 93.4,44.6 128.9,30 164.3,30 199.8,30 235.2,30"/>
@@ -886,8 +904,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">KPI</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp39"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp39)">
+<clipPath id="cp59"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp59)">
 <polyline class="ln c0" data-name="Player 20" data-vals="0.063232,0.12195,0.54415,0.2336,0.37656,-0.0072639,0.3162,0.40873,0.2297,0.35088,0.51293,0.11436,0.60159" points="58,181.8 93.4,172.2 128.9,103.8 164.3,154.2 199.8,131 235.2,193.2 270.6,140.8 306.1,125.8 341.5,154.8 377,135.2 412.4,108.9 447.8,173.5 483.3,94.5"/>
 <circle class="dot c0" cx="483.3" cy="94.5" r="4"/>
 <polyline class="ln c1" data-name="Player 13" data-vals="0.71667,0.80588,0.97411,1,1,1" points="58,75.9 93.4,61.4 128.9,34.2 164.3,30 199.8,30 235.2,30"/>
@@ -933,8 +951,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Average energy</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp40"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp40)">
+<clipPath id="cp60"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp60)">
 <polyline class="ln c0" data-name="Player 20" data-vals="-0.31707,0.61858,0.69911,0.20767,0.30605,-0.023661,0.63456,-0.35318,-0.13184,0.65074,0.58601,-0.32846,-0.86654" points="58,243.4 93.4,91.8 128.9,78.7 164.3,158.4 199.8,142.4 235.2,195.8 270.6,89.2 306.1,249.2 341.5,213.4 377,86.6 412.4,97.1 447.8,245.2 483.3,332.4"/>
 <circle class="dot c0" cx="483.3" cy="332.4" r="4"/>
 <polyline class="ln c1" data-name="Player 13" data-vals="0.80093,0.54537,-0.056741,-0.36938,-0.67212,-0.91208" points="58,62.2 93.4,103.6 128.9,201.2 164.3,251.8 199.8,300.9 235.2,339.8"/>
@@ -1030,8 +1048,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp41"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp41)">
+<clipPath id="cp61"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp61)">
 <polyline class="ln c0" data-name="Player 37" data-vals="-0.53846,-0.25,-0.4,0,-0.57895,-0.33333,-0.2,-0.52,-0.33333,-0.5,-0.33333,-0.3913,-0.11111,-0.46667,-0.33333,-0.33333,-0.33333,-1,-0.33333,-1,-0.51515,-0.38462,-0.5,-0.46667,-0.5,0" points="58,279.2 93.4,232.5 128.9,256.8 164.3,192 199.8,285.8 235.2,246 270.6,224.4 306.1,276.2 341.5,246 377,273 412.4,246 447.8,255.4 483.3,210 518.7,267.6 554.2,246 589.6,246 625,246 660.5,354 695.9,246 731.4,354 766.8,275.5 802.2,254.3 837.7,273 873.1,267.6 908.6,273 944,192"/>
 <circle class="dot c0" cx="944" cy="192" r="4"/>
 <polyline class="ln c1" data-name="Player 12" data-vals="0,-0.91667,-0.66667,-0.94595,-0.8,-0.67568,-0.875,-0.75,0,-1,-0.95349,0,0,-1" points="58,192 93.4,340.5 128.9,300 164.3,345.2 199.8,321.6 235.2,301.5 270.6,333.8 306.1,313.5 341.5,192 377,354 412.4,346.5 447.8,192 483.3,192 518.7,354"/>
@@ -1077,8 +1095,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp42"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp42)">
+<clipPath id="cp62"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp62)">
 <polyline class="ln c0" data-name="Player 37" data-vals="0,0.33333,0.86667,0.33333,0,0.33333,0.4,0.5,0.89474,1,0.78571,0.875,0,0.27273,0,0.67742,0.33333,0.89474,1,0.75,0.8125,0.47368,0,0.42857,0.78947,0.33333" points="58,192 93.4,138 128.9,51.6 164.3,138 199.8,192 235.2,138 270.6,127.2 306.1,111 341.5,47.1 377,30 412.4,64.7 447.8,50.2 483.3,192 518.7,147.8 554.2,192 589.6,82.3 625,138 660.5,47.1 695.9,30 731.4,70.5 766.8,60.4 802.2,115.3 837.7,192 873.1,122.6 908.6,64.1 944,138"/>
 <circle class="dot c0" cx="944" cy="138" r="4"/>
 <polyline class="ln c1" data-name="Player 12" data-vals="0.84615,1,0,0.83333,0.84,0.66667,0,0.71429,0.97727,1,1,0,0,0" points="58,54.9 93.4,30 128.9,192 164.3,57 199.8,55.9 235.2,84 270.6,192 306.1,76.3 341.5,33.7 377,30 412.4,30 447.8,192 483.3,192 518.7,192"/>
@@ -1124,8 +1142,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Ratio</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp43"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp43)">
+<clipPath id="cp63"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp63)">
 <polyline class="ln c0" data-name="Player 37" data-vals="0.57895,0.56835,0.73091,0.75758,0.62989,0.58076,0.63509,0.68266,0.65251,0.82156,0.61338,0.47893,0.47079,0.64964,0.64948,0.57414,0.56491,0.78986,0.68539,0.58621,0.54894,0.48507,0.69014,0.67424,0.70696,0.38462" points="58,98.2 93.4,99.9 128.9,73.6 164.3,69.3 199.8,90 235.2,97.9 270.6,89.1 306.1,81.4 341.5,86.3 377,58.9 412.4,92.6 447.8,114.4 483.3,115.7 518.7,86.8 554.2,86.8 589.6,99 625,100.5 660.5,64 695.9,81 731.4,97 766.8,103.1 802.2,113.4 837.7,80.2 873.1,82.8 908.6,77.5 944,129.7"/>
 <circle class="dot c0" cx="944" cy="129.7" r="4"/>
 <polyline class="ln c1" data-name="Player 12" data-vals="0.8676,0.94553,0.73611,0.88048,0.68627,0.84064,0.77465,0.68627,0.85849,0.93056,0.96813,0.69333,0.92,0.92118" points="58,51.4 93.4,38.8 128.9,72.8 164.3,49.4 199.8,80.8 235.2,55.8 270.6,66.5 306.1,80.8 341.5,52.9 377,41.2 412.4,35.2 447.8,79.7 483.3,43 518.7,42.8"/>
@@ -1171,8 +1189,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">KPI</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp44"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp44)">
+<clipPath id="cp64"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp64)">
 <polyline class="ln c0" data-name="Player 37" data-vals="0.36313,0.3822,0.60519,0.7411,0.32447,0.48949,0.54857,0.31068,0.70423,0.52058,0.62626,0.30909,0.39286,0.3944,0.51786,0.53957,0.40616,0.69231,0.64706,0.55422,0.2803,0.34474,0.42857,0.42317,0.59897,0.38095" points="58,133.2 93.4,130.1 128.9,94 164.3,71.9 199.8,139.4 235.2,112.7 270.6,103.1 306.1,141.7 341.5,77.9 377,107.7 412.4,90.5 447.8,141.9 483.3,128.4 518.7,128.1 554.2,108.1 589.6,104.6 625,126.2 660.5,79.8 695.9,87.2 731.4,102.2 766.8,146.6 802.2,136.2 837.7,122.6 873.1,123.4 908.6,95 944,130.3"/>
 <circle class="dot c0" cx="944" cy="130.3" r="4"/>
 <polyline class="ln c1" data-name="Player 12" data-vals="0.86431,0.46137,0.49425,0.17769,0.39341,0.2438,0.41209,0.3159,0.93262,0.76608,0.12653,0.69333,0.92,0.57258" points="58,52 93.4,117.3 128.9,111.9 164.3,163.2 199.8,128.3 235.2,152.5 270.6,125.2 306.1,140.8 341.5,40.9 377,67.9 412.4,171.5 447.8,79.7 483.3,43 518.7,99.2"/>
@@ -1218,8 +1236,8 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <text class="tick" x="944" y="372" text-anchor="middle">25</text>
 <text class="axlab" x="8" y="16">Average energy</text>
 <text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
-<clipPath id="cp45"><rect x="55" y="27" width="892" height="330"/></clipPath>
-<g clip-path="url(#cp45)">
+<clipPath id="cp65"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp65)">
 <polyline class="ln c0" data-name="Player 37" data-vals="0.46427,0.53619,0.90424,0.43086,0.7386,0.86553,0.20238,0.85316,0.14895,0.84742,0.56665,0.6424,0.93404,0.45499,0.40114,0.17539,0.30248,0.27052,-0.034383,-0.59502,0.3719,0.43951,-0.29347,0.094083,-0.4955,-0.62174" points="58,116.8 93.4,105.1 128.9,45.5 164.3,122.2 199.8,72.3 235.2,51.8 270.6,159.2 306.1,53.8 341.5,167.9 377,54.7 412.4,100.2 447.8,87.9 483.3,40.7 518.7,118.3 554.2,127 589.6,163.6 625,143 660.5,148.2 695.9,197.6 731.4,288.4 766.8,131.8 802.2,120.8 837.7,239.5 873.1,176.8 908.6,272.3 944,292.7"/>
 <circle class="dot c0" cx="944" cy="292.7" r="4"/>
 <polyline class="ln c1" data-name="Player 12" data-vals="-0.23039,-0.67893,-0.58084,-0.078059,-0.088415,0.8595,0.84783,0.74551,0.26328,-0.11794,0.04025,-0.2766,-0.61744,-0.88782" points="58,229.3 93.4,302 128.9,286.1 164.3,204.6 199.8,206.3 235.2,52.8 270.6,54.7 306.1,71.2 341.5,149.3 377,211.1 412.4,185.5 447.8,236.8 483.3,292 518.7,335.8"/>
@@ -1232,6 +1250,301 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 <circle class="dot cc1" cx="554.2" cy="331.9" r="4"/>
 <polyline class="ln dash cc2" data-name="Control 3" data-vals="0.52285,0.68614,0.45509,0.33704,0.68323,0.52405,0.11229,0.87305,0.85535,0.57212,-0.033114,-0.23574,-0.69519" points="58,107.3 93.4,80.8 128.9,118.3 164.3,137.4 199.8,81.3 235.2,107.1 270.6,173.8 306.1,50.6 341.5,53.4 377,99.3 412.4,197.4 447.8,230.2 483.3,304.6"/>
 <circle class="dot cc2" cx="483.3" cy="304.6" r="4"/>
+</g>
+</svg>
+<div class="tip" hidden></div>
+</div>
+</figure>
+</details>
+</section>
+<section>
+<details class="epoch" open>
+<summary><h2>Epoch 3</h2><span class="muted">28 days</span></summary>
+<div class="tiles">
+<div class="tile"><div class="l">Players &middot; avg energy</div><div class="v">-0.530</div></div>
+<div class="tile"><div class="l">Players &middot; avg survival (iters)</div><div class="v">1441.7</div></div>
+<div class="tile"><div class="l">Controls &middot; avg energy</div><div class="v">0.010</div></div>
+<div class="tile"><div class="l">Controls &middot; avg survival (iters)</div><div class="v">3314.4</div></div>
+</div>
+<h3>Top players&#39; optimizable parameters</h3>
+<div class="tbl"><table>
+<thead>
+<tr><th>Parameter</th><th class="num">Player 12</th><th class="num">Player 37</th><th class="num">Player 39</th></tr>
+</thead>
+<tbody>
+<tr><td>learning_rate</td><td class="num">0.0023113446782364122</td><td class="num">1.0000000001882705e-14</td><td class="num">5.3438435346341373e-06</td></tr>
+<tr><td>new_out_reduce_conf_impact</td><td class="num">3.5938345673028378</td><td class="num">3.5938345673028378</td><td class="num">4.134273136252208</td></tr>
+<tr><td>encourage_off_outputs</td><td class="num">0.98241332827894401</td><td class="num">0.92123371350941619</td><td class="num">1.1501232957657543</td></tr>
+<tr><td>update_output_state_prob</td><td class="num">0.24478287293322704</td><td class="num">0.24478287293322704</td><td class="num">0.23546341995067696</td></tr>
+<tr><td>update_output_neuron_prob</td><td class="num">0.47147235553172279</td><td class="num">0.47147235553172279</td><td class="num">0.24745863406931817</td></tr>
+<tr><td>output_repeats_to_trigger</td><td class="num">1</td><td class="num">2</td><td class="num">6</td></tr>
+<tr><td>output_repeats_full_check</td><td class="num">0</td><td class="num">1</td><td class="num">1</td></tr>
+<tr><td>max_effectives</td><td class="num">60</td><td class="num">74</td><td class="num">106</td></tr>
+<tr><td>max_candidates</td><td class="num">399</td><td class="num">399</td><td class="num">340</td></tr>
+<tr><td>top_k_confidence_deduction</td><td class="num">3</td><td class="num">3</td><td class="num">6</td></tr>
+<tr><td>distance_power_confidence_deduction</td><td class="num">1.0371209669013521</td><td class="num">1.0371209669013521</td><td class="num">3.4324174303699393</td></tr>
+<tr><td>deduced_confidence_weight</td><td class="num">0.5424305548782139</td><td class="num">0.5424305548782139</td><td class="num">0.47477029469443066</td></tr>
+<tr><td>rems_time_scales</td><td class="num">1</td><td class="num">1</td><td class="num">1</td></tr>
+<tr><td>trigger_boost_rem_first</td><td class="num">1.0859060553680089</td><td class="num">1.0926265396020607</td><td class="num">1.0743166282611507</td></tr>
+<tr><td>trigger_boost_rem_last</td><td class="num">1.0593050961893196</td><td class="num">1.0593050961893196</td><td class="num">1.057208411317105</td></tr>
+<tr><td>trigger_boost_rem_pcurve</td><td class="num">4.9035794643267954</td><td class="num">4.829938709105444</td><td class="num">5.5020775453455615</td></tr>
+<tr><td>learning_rate_rem_first</td><td class="num">0.62307624906156234</td><td class="num">0.62307624906156234</td><td class="num">0.41146121829721971</td></tr>
+<tr><td>learning_rate_rem_last</td><td class="num">0.79011478935170909</td><td class="num">0.79011478935170909</td><td class="num">0.73667438347787373</td></tr>
+<tr><td>learning_rate_rem_pcurve</td><td class="num">7.2965793723090711</td><td class="num">7.2965793723090711</td><td class="num">5.2337842863812458</td></tr>
+<tr><td>rem_cooloff_time_first</td><td class="num">79</td><td class="num">79</td><td class="num">69</td></tr>
+<tr><td>rem_cooloff_time_last</td><td class="num">66491</td><td class="num">66491</td><td class="num">66107</td></tr>
+<tr><td>rem_cooloff_time_pcurve</td><td class="num">0.46993519680283991</td><td class="num">0.46993519680283991</td><td class="num">2.5899698769004229</td></tr>
+<tr><td>train_rate</td><td class="num">10</td><td class="num">10</td><td class="num">6</td></tr>
+<tr><td>connection_bias_inputs_parents</td><td class="num">5</td><td class="num">5</td><td class="num">4</td></tr>
+<tr><td>connection_bias_outputs_parents</td><td class="num">3</td><td class="num">2</td><td class="num">1</td></tr>
+<tr><td>connection_bias_outputs_children</td><td class="num">4</td><td class="num">4</td><td class="num">5</td></tr>
+<tr><td>bidirectional_connections_allowed</td><td class="num">1</td><td class="num">1</td><td class="num">1</td></tr>
+<tr><td>energy_emotional_impact</td><td class="num">0.020625478327200773</td><td class="num">2.2621746398023317e-08</td><td class="num">0.00086550515578198077</td></tr>
+<tr><td>energy_deriv_emotional_impact</td><td class="num">-3.3663034336419848</td><td class="num">-2.8544989082439187</td><td class="num">-2.906544743589297</td></tr>
+<tr><td>emotion_decay</td><td class="num">0.066266157344094356</td><td class="num">-0.99304093871261823</td><td class="num">-0.83166140511080999</td></tr>
+<tr><td>neuron_type</td><td class="num">1</td><td class="num">1</td><td class="num">2</td></tr>
+</tbody>
+</table></div>
+<figure class="chart">
+<figcaption class="chart-head"><span class="chart-title">Food Accuracy Ratio</span><span class="legend"><span class="key"><span class="sw c0"></span>Player 12</span><span class="key"><span class="sw c1"></span>Player 37</span><span class="key"><span class="sw c2"></span>Player 39</span><span class="key kd"><span class="sw cc0"></span>Control 9</span><span class="key kd"><span class="sw cc1"></span>Control 0</span><span class="key kd"><span class="sw cc2"></span>Control 7</span></span></figcaption>
+<div class="chart-body">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Food Accuracy Ratio" data-n="28" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Day">
+<line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
+<line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="277" text-anchor="end">-0.5</text>
+<line class="axl" x1="58" y1="192" x2="944" y2="192" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="196" text-anchor="end">0.0</text>
+<line class="gl" x1="58" y1="111" x2="944" y2="111" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="115" text-anchor="end">0.5</text>
+<line class="gl" x1="58" y1="30" x2="944" y2="30" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="34" text-anchor="end">1.0</text>
+<line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="58" y="372" text-anchor="middle">0</text>
+<line class="gl" x1="222.1" y1="354" x2="222.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="222.1" y="372" text-anchor="middle">5</text>
+<line class="gl" x1="386.1" y1="354" x2="386.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="386.1" y="372" text-anchor="middle">10</text>
+<line class="gl" x1="550.2" y1="354" x2="550.2" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="550.2" y="372" text-anchor="middle">15</text>
+<line class="gl" x1="714.3" y1="354" x2="714.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="714.3" y="372" text-anchor="middle">20</text>
+<line class="gl" x1="878.4" y1="354" x2="878.4" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="878.4" y="372" text-anchor="middle">25</text>
+<line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="944" y="372" text-anchor="middle">27</text>
+<text class="axlab" x="8" y="16">Ratio</text>
+<text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
+<clipPath id="cp66"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp66)">
+<polyline class="ln c0" data-name="Player 12" data-vals="-0.4,-0.42857,-0.5,0.090909,0.14286,-0.86667,-0.55556,-0.2,0,-1,-0.77778,-0.61111,-0.6,0,-0.52381,-0.42857,-0.41176,-0.75758,-0.52941,-0.52941,-0.55556,0" points="58,256.8 90.8,261.4 123.6,273 156.4,177.3 189.3,168.9 222.1,332.4 254.9,282 287.7,224.4 320.5,192 353.3,354 386.1,318 419,291 451.8,289.2 484.6,192 517.4,276.9 550.2,261.4 583,258.7 615.9,314.7 648.7,277.8 681.5,277.8 714.3,282 747.1,192"/>
+<circle class="dot c0" cx="747.1" cy="192" r="4"/>
+<polyline class="ln c1" data-name="Player 37" data-vals="0,-0.6,-0.42857,-0.5,0,-1,-0.68,-0.63636,0,0,0,-0.6,-0.66667,0,0" points="58,192 90.8,289.2 123.6,261.4 156.4,273 189.3,192 222.1,354 254.9,302.2 287.7,295.1 320.5,192 353.3,192 386.1,192 419,289.2 451.8,300 484.6,192 517.4,192"/>
+<circle class="dot c1" cx="517.4" cy="192" r="4"/>
+<polyline class="ln c2" data-name="Player 39" data-vals="-0.90244,-1,0,0,0,0" points="58,338.2 90.8,354 123.6,192 156.4,192 189.3,192 222.1,192"/>
+<circle class="dot c2" cx="222.1" cy="192" r="4"/>
+<polyline class="ln dash cc0" data-name="Control 9" data-vals="-0.25,-0.25,0,1,0,0.25,0.33333,0,0.11111,0.6,0.11111,0,0.6,0.26316,0.28571,-0.27273,0.090909,0.23077,0,0,-0.17647,0.23077,0.25,0.45455,0,0,-0.77778,0" points="58,232.5 90.8,232.5 123.6,192 156.4,30 189.3,192 222.1,151.5 254.9,138 287.7,192 320.5,174 353.3,94.8 386.1,174 419,192 451.8,94.8 484.6,149.4 517.4,145.7 550.2,236.2 583,177.3 615.9,154.6 648.7,192 681.5,192 714.3,220.6 747.1,154.6 779.9,151.5 812.7,118.4 845.6,192 878.4,192 911.2,318 944,192"/>
+<circle class="dot cc0" cx="944" cy="192" r="4"/>
+<polyline class="ln dash cc1" data-name="Control 0" data-vals="-0.73913,-0.77778,0,-0.72727,-0.55556,-0.91304,-0.8125,-1,-0.6,-0.75,-0.83784,-0.6,-0.73913,-0.6,-0.82609,-0.71429,-0.66667,-0.8,-0.75,-0.88235,-1,-0.8,-1,-0.66667,-0.63636" points="58,311.7 90.8,318 123.6,192 156.4,309.8 189.3,282 222.1,339.9 254.9,323.6 287.7,354 320.5,289.2 353.3,313.5 386.1,327.7 419,289.2 451.8,311.7 484.6,289.2 517.4,325.8 550.2,307.7 583,300 615.9,321.6 648.7,313.5 681.5,334.9 714.3,354 747.1,321.6 779.9,354 812.7,300 845.6,295.1"/>
+<circle class="dot cc1" cx="845.6" cy="295.1" r="4"/>
+<polyline class="ln dash cc2" data-name="Control 7" data-vals="0.33333,0,0.6,0.29412,0,-0.15789,0,-0.23077,0,-0.26316,-0.076923,-0.5,-0.75" points="58,138 90.8,192 123.6,94.8 156.4,144.4 189.3,192 222.1,217.6 254.9,192 287.7,229.4 320.5,192 353.3,234.6 386.1,204.5 419,273 451.8,313.5"/>
+<circle class="dot cc2" cx="451.8" cy="313.5" r="4"/>
+</g>
+</svg>
+<div class="tip" hidden></div>
+</div>
+</figure>
+<figure class="chart">
+<figcaption class="chart-head"><span class="chart-title">Poison Accuracy Ratio</span><span class="legend"><span class="key"><span class="sw c0"></span>Player 12</span><span class="key"><span class="sw c1"></span>Player 37</span><span class="key"><span class="sw c2"></span>Player 39</span><span class="key kd"><span class="sw cc0"></span>Control 9</span><span class="key kd"><span class="sw cc1"></span>Control 0</span><span class="key kd"><span class="sw cc2"></span>Control 7</span></span></figcaption>
+<div class="chart-body">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Poison Accuracy Ratio" data-n="28" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Day">
+<line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
+<line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="277" text-anchor="end">-0.5</text>
+<line class="axl" x1="58" y1="192" x2="944" y2="192" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="196" text-anchor="end">0.0</text>
+<line class="gl" x1="58" y1="111" x2="944" y2="111" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="115" text-anchor="end">0.5</text>
+<line class="gl" x1="58" y1="30" x2="944" y2="30" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="34" text-anchor="end">1.0</text>
+<line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="58" y="372" text-anchor="middle">0</text>
+<line class="gl" x1="222.1" y1="354" x2="222.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="222.1" y="372" text-anchor="middle">5</text>
+<line class="gl" x1="386.1" y1="354" x2="386.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="386.1" y="372" text-anchor="middle">10</text>
+<line class="gl" x1="550.2" y1="354" x2="550.2" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="550.2" y="372" text-anchor="middle">15</text>
+<line class="gl" x1="714.3" y1="354" x2="714.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="714.3" y="372" text-anchor="middle">20</text>
+<line class="gl" x1="878.4" y1="354" x2="878.4" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="878.4" y="372" text-anchor="middle">25</text>
+<line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="944" y="372" text-anchor="middle">27</text>
+<text class="axlab" x="8" y="16">Ratio</text>
+<text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
+<clipPath id="cp67"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp67)">
+<polyline class="ln c0" data-name="Player 12" data-vals="0.78947,0.8,0.7,0.77778,0.5,0.38462,-0.33333,0.2,0.45455,0.81818,0.2,0.7,0.66667,-0.5,0.91667,0.77778,1,0.75,0.16667,0.14286,0.63636,0" points="58,64.1 90.8,62.4 123.6,78.6 156.4,66 189.3,111 222.1,129.7 254.9,246 287.7,159.6 320.5,118.4 353.3,59.5 386.1,159.6 419,78.6 451.8,84 484.6,273 517.4,43.5 550.2,66 583,30 615.9,70.5 648.7,165 681.5,168.9 714.3,88.9 747.1,192"/>
+<circle class="dot c0" cx="747.1" cy="192" r="4"/>
+<polyline class="ln c1" data-name="Player 37" data-vals="0.6,0.5,0.92,1,0,1,0,1,1,0,0,0,1,0,0" points="58,94.8 90.8,111 123.6,43 156.4,30 189.3,192 222.1,30 254.9,192 287.7,30 320.5,30 353.3,192 386.1,192 419,192 451.8,30 484.6,192 517.4,192"/>
+<circle class="dot c1" cx="517.4" cy="192" r="4"/>
+<polyline class="ln c2" data-name="Player 39" data-vals="0.89474,0,0,0,0,0" points="58,47.1 90.8,192 123.6,192 156.4,192 189.3,192 222.1,192"/>
+<circle class="dot c2" cx="222.1" cy="192" r="4"/>
+<polyline class="ln dash cc0" data-name="Control 9" data-vals="-0.28571,-0.090909,-0.2,-0.2,-0.6,0.2,0,0.33333,0,-0.5,1,-0.33333,0.090909,-0.45455,0.29412,0,0,-0.11111,-1,0,-0.14286,-0.71429,-1,0.33333,0.5,0,0.25,-1" points="58,238.3 90.8,206.7 123.6,224.4 156.4,224.4 189.3,289.2 222.1,159.6 254.9,192 287.7,138 320.5,192 353.3,273 386.1,30 419,246 451.8,177.3 484.6,265.6 517.4,144.4 550.2,192 583,192 615.9,210 648.7,354 681.5,192 714.3,215.1 747.1,307.7 779.9,354 812.7,138 845.6,111 878.4,192 911.2,151.5 944,354"/>
+<circle class="dot cc0" cx="944" cy="354" r="4"/>
+<polyline class="ln dash cc1" data-name="Control 0" data-vals="0.77778,0.73333,0.92,1,0.45455,0.81818,1,0,0.33333,0.55556,0,0.71429,0,0.33333,1,0.75,0.72727,1,0.88889,0,0,0.2,0.86667,0.73913,0.71429" points="58,66 90.8,73.2 123.6,43 156.4,30 189.3,118.4 222.1,59.5 254.9,30 287.7,192 320.5,138 353.3,102 386.1,192 419,76.3 451.8,192 484.6,138 517.4,30 550.2,70.5 583,74.2 615.9,30 648.7,48 681.5,192 714.3,192 747.1,159.6 779.9,51.6 812.7,72.3 845.6,76.3"/>
+<circle class="dot cc1" cx="845.6" cy="76.3" r="4"/>
+<polyline class="ln dash cc2" data-name="Control 7" data-vals="0.14286,-0.5,-0.5,-0.28571,0,-1,-0.11111,0.6,0,0.2,-0.42857,0.090909,-0.75" points="58,168.9 90.8,273 123.6,273 156.4,238.3 189.3,192 222.1,354 254.9,210 287.7,94.8 320.5,192 353.3,159.6 386.1,261.4 419,177.3 451.8,313.5"/>
+<circle class="dot cc2" cx="451.8" cy="313.5" r="4"/>
+</g>
+</svg>
+<div class="tip" hidden></div>
+</div>
+</figure>
+<figure class="chart">
+<figcaption class="chart-head"><span class="chart-title">Nothing Accuracy Ratio</span><span class="legend"><span class="key"><span class="sw c0"></span>Player 12</span><span class="key"><span class="sw c1"></span>Player 37</span><span class="key"><span class="sw c2"></span>Player 39</span><span class="key kd"><span class="sw cc0"></span>Control 9</span><span class="key kd"><span class="sw cc1"></span>Control 0</span><span class="key kd"><span class="sw cc2"></span>Control 7</span></span></figcaption>
+<div class="chart-body">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Nothing Accuracy Ratio" data-n="28" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Day">
+<line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
+<line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="277" text-anchor="end">-0.5</text>
+<line class="axl" x1="58" y1="192" x2="944" y2="192" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="196" text-anchor="end">0.0</text>
+<line class="gl" x1="58" y1="111" x2="944" y2="111" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="115" text-anchor="end">0.5</text>
+<line class="gl" x1="58" y1="30" x2="944" y2="30" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="34" text-anchor="end">1.0</text>
+<line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="58" y="372" text-anchor="middle">0</text>
+<line class="gl" x1="222.1" y1="354" x2="222.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="222.1" y="372" text-anchor="middle">5</text>
+<line class="gl" x1="386.1" y1="354" x2="386.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="386.1" y="372" text-anchor="middle">10</text>
+<line class="gl" x1="550.2" y1="354" x2="550.2" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="550.2" y="372" text-anchor="middle">15</text>
+<line class="gl" x1="714.3" y1="354" x2="714.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="714.3" y="372" text-anchor="middle">20</text>
+<line class="gl" x1="878.4" y1="354" x2="878.4" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="878.4" y="372" text-anchor="middle">25</text>
+<line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="944" y="372" text-anchor="middle">27</text>
+<text class="axlab" x="8" y="16">Ratio</text>
+<text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
+<clipPath id="cp68"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp68)">
+<polyline class="ln c0" data-name="Player 12" data-vals="0.43651,0.55477,0.46923,0.33579,0.29825,0.45588,0.30337,0.43448,0.35484,0.56989,0.37762,0.45082,0.4767,0.3617,0.56863,0.52817,0.47212,0.59073,0.40221,0.25362,0.57934,0.0625" points="58,121.3 90.8,102.1 123.6,116 156.4,137.6 189.3,143.7 222.1,118.1 254.9,142.9 287.7,121.6 320.5,134.5 353.3,99.7 386.1,130.8 419,119 451.8,114.8 484.6,133.4 517.4,99.9 550.2,106.4 583,115.5 615.9,96.3 648.7,126.8 681.5,150.9 714.3,98.1 747.1,181.9"/>
+<circle class="dot c0" cx="747.1" cy="181.9" r="4"/>
+<polyline class="ln c1" data-name="Player 37" data-vals="0.6,0.75373,0.75373,0.61429,0.77333,0.66531,0.55636,0.83158,0.58621,0.65333,0.64,0.83051,0.73759,0.61333,0.80357" points="58,94.8 90.8,69.9 123.6,69.9 156.4,92.5 189.3,66.7 222.1,84.2 254.9,101.9 287.7,57.3 320.5,97 353.3,86.2 386.1,88.3 419,57.5 451.8,72.5 484.6,92.6 517.4,61.8"/>
+<circle class="dot c1" cx="517.4" cy="61.8" r="4"/>
+<polyline class="ln c2" data-name="Player 39" data-vals="0.85,0.94964,0.77333,0.86667,0.84667,1" points="58,54.3 90.8,38.2 123.6,66.7 156.4,51.6 189.3,54.8 222.1,30"/>
+<circle class="dot c2" cx="222.1" cy="30" r="4"/>
+<polyline class="ln dash cc0" data-name="Control 9" data-vals="-0.11511,-0.12456,-0.12542,-0.15972,-0.031579,-0.070922,-0.16438,-0.17845,-0.23704,-0.052265,-0.10035,-0.26056,-0.14695,-0.074074,-0.055762,-0.11828,-0.17314,-0.057554,-0.15328,-0.21212,-0.1087,-0.12143,-0.13402,-0.15901,-0.099291,-0.16327,-0.15901,-0.13208" points="58,210.6 90.8,212.2 123.6,212.3 156.4,217.9 189.3,197.1 222.1,203.5 254.9,218.6 287.7,220.9 320.5,230.4 353.3,200.5 386.1,208.3 419,234.2 451.8,215.8 484.6,204 517.4,201 550.2,211.2 583,220 615.9,201.3 648.7,216.8 681.5,226.4 714.3,209.6 747.1,211.7 779.9,213.7 812.7,217.8 845.6,208.1 878.4,218.4 911.2,217.8 944,213.4"/>
+<circle class="dot cc0" cx="944" cy="213.4" r="4"/>
+<polyline class="ln dash cc1" data-name="Control 0" data-vals="0.78358,0.7029,0.70909,0.73485,0.7786,0.74436,0.75849,0.69492,0.76208,0.73034,0.75479,0.72438,0.76895,0.71429,0.78358,0.76842,0.75385,0.81413,0.72093,0.72438,0.72603,0.77544,0.77143,0.75094,0.68852" points="58,65.1 90.8,78.1 123.6,77.1 156.4,73 189.3,65.9 222.1,71.4 254.9,69.1 287.7,79.4 320.5,68.5 353.3,73.7 386.1,69.7 419,74.7 451.8,67.4 484.6,76.3 517.4,65.1 550.2,67.5 583,69.9 615.9,60.1 648.7,75.2 681.5,74.7 714.3,74.4 747.1,66.4 779.9,67 812.7,70.3 845.6,80.5"/>
+<circle class="dot cc1" cx="845.6" cy="80.5" r="4"/>
+<polyline class="ln dash cc2" data-name="Control 7" data-vals="0.031359,0.056738,0.017182,0.15242,0.034965,-0.082437,0.017544,0.085106,0.067114,0.10145,0.011236,0.091575,0.13725" points="58,186.9 90.8,182.8 123.6,189.2 156.4,167.3 189.3,186.3 222.1,205.4 254.9,189.2 287.7,178.2 320.5,181.1 353.3,175.6 386.1,190.2 419,177.2 451.8,169.8"/>
+<circle class="dot cc2" cx="451.8" cy="169.8" r="4"/>
+</g>
+</svg>
+<div class="tip" hidden></div>
+</div>
+</figure>
+<figure class="chart">
+<figcaption class="chart-head"><span class="chart-title">Good choices KPI</span><span class="legend"><span class="key"><span class="sw c0"></span>Player 12</span><span class="key"><span class="sw c1"></span>Player 37</span><span class="key"><span class="sw c2"></span>Player 39</span><span class="key kd"><span class="sw cc0"></span>Control 9</span><span class="key kd"><span class="sw cc1"></span>Control 0</span><span class="key kd"><span class="sw cc2"></span>Control 7</span></span></figcaption>
+<div class="chart-body">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Good choices KPI" data-n="28" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Day">
+<line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
+<line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="277" text-anchor="end">-0.5</text>
+<line class="axl" x1="58" y1="192" x2="944" y2="192" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="196" text-anchor="end">0.0</text>
+<line class="gl" x1="58" y1="111" x2="944" y2="111" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="115" text-anchor="end">0.5</text>
+<line class="gl" x1="58" y1="30" x2="944" y2="30" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="34" text-anchor="end">1.0</text>
+<line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="58" y="372" text-anchor="middle">0</text>
+<line class="gl" x1="222.1" y1="354" x2="222.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="222.1" y="372" text-anchor="middle">5</text>
+<line class="gl" x1="386.1" y1="354" x2="386.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="386.1" y="372" text-anchor="middle">10</text>
+<line class="gl" x1="550.2" y1="354" x2="550.2" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="550.2" y="372" text-anchor="middle">15</text>
+<line class="gl" x1="714.3" y1="354" x2="714.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="714.3" y="372" text-anchor="middle">20</text>
+<line class="gl" x1="878.4" y1="354" x2="878.4" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="878.4" y="372" text-anchor="middle">25</text>
+<line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="944" y="372" text-anchor="middle">27</text>
+<text class="axlab" x="8" y="16">KPI</text>
+<text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
+<clipPath id="cp69"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp69)">
+<polyline class="ln c0" data-name="Player 12" data-vals="0.46256,0.48603,0.29091,0.38191,0.30114,0.19799,-0.0046948,0.37313,0.31903,0.38874,0.21937,0.11111,0.27513,0.25543,0.39035,0.45915,0.36098,0.11404,0.17822,0.07455,0.33333,0.027778" points="58,117.1 90.8,113.3 123.6,144.9 156.4,130.1 189.3,143.2 222.1,159.9 254.9,192.8 287.7,131.6 320.5,140.3 353.3,129 386.1,156.5 419,174 451.8,147.4 484.6,150.6 517.4,128.8 550.2,117.6 583,133.5 615.9,173.5 648.7,163.1 681.5,179.9 714.3,138 747.1,187.5"/>
+<circle class="dot c0" cx="747.1" cy="187.5" r="4"/>
+<polyline class="ln c1" data-name="Player 37" data-vals="0.6,0.39904,0.69231,0.54348,0.77333,0.73987,0.17,0.61236,0.74101,0.65333,0.64,0.71875,0.65556,0.61333,0.80357" points="58,94.8 90.8,127.4 123.6,79.8 156.4,104 189.3,66.7 222.1,72.1 254.9,164.5 287.7,92.8 320.5,72 353.3,86.2 386.1,88.3 419,75.6 451.8,85.8 484.6,92.6 517.4,61.8"/>
+<circle class="dot c1" cx="517.4" cy="61.8" r="4"/>
+<polyline class="ln c2" data-name="Player 39" data-vals="0.16699,0.39691,0.77333,0.86667,0.84667,1" points="58,164.9 90.8,127.7 123.6,66.7 156.4,51.6 189.3,54.8 222.1,30"/>
+<circle class="dot c2" cx="222.1" cy="30" r="4"/>
+<polyline class="ln dash cc0" data-name="Control 9" data-vals="-0.15508,-0.13425,-0.13016,-0.043732,-0.059155,-0.0055249,-0.11515,-0.15858,-0.13235,-0.046512,-0.046784,-0.22905,-0.018767,-0.036675,0.061425,-0.12834,-0.12155,-0.013193,-0.16583,-0.12903,-0.12596,-0.10456,-0.098507,-0.033149,-0.032967,-0.15,-0.2,-0.15888" points="58,217.1 90.8,213.7 123.6,213.1 156.4,199.1 189.3,201.6 222.1,192.9 254.9,210.7 287.7,217.7 320.5,213.4 353.3,199.5 386.1,199.6 419,229.1 451.8,195 484.6,197.9 517.4,182 550.2,212.8 583,211.7 615.9,194.1 648.7,218.9 681.5,212.9 714.3,212.4 747.1,208.9 779.9,208 812.7,197.4 845.6,197.3 878.4,216.3 911.2,224.4 944,217.7"/>
+<circle class="dot cc0" cx="944" cy="217.7" r="4"/>
+<polyline class="ln dash cc1" data-name="Control 0" data-vals="0.36516,0.53281,0.76533,0.39535,0.44691,0.30353,0.18993,0.5625,0.33014,0.29551,0.092511,0.54017,0.32653,0.51289,0.36038,0.61932,0.45662,0.4431,0.35556,0.35326,0.51807,0.52113,0.66575,0.54436,0.50392" points="58,132.8 90.8,105.7 123.6,68 156.4,128 189.3,119.6 222.1,142.8 254.9,161.2 287.7,100.9 320.5,138.5 353.3,144.1 386.1,177 419,104.5 451.8,139.1 484.6,108.9 517.4,133.6 550.2,91.7 583,118 615.9,120.2 648.7,134.4 681.5,134.8 714.3,108.1 747.1,107.6 779.9,84.1 812.7,103.8 845.6,110.4"/>
+<circle class="dot cc1" cx="845.6" cy="110.4" r="4"/>
+<polyline class="ln dash cc2" data-name="Control 7" data-vals="0.066667,-4.8801e-17,0.036145,0.12195,0.028571,-0.12042,0.002849,0.057221,0.064935,0.017903,-0.044706,-0.027708,-0.14667" points="58,181.2 90.8,192 123.6,186.1 156.4,172.2 189.3,187.4 222.1,211.5 254.9,191.5 287.7,182.7 320.5,181.5 353.3,189.1 386.1,199.2 419,196.5 451.8,215.8"/>
+<circle class="dot cc2" cx="451.8" cy="215.8" r="4"/>
+</g>
+</svg>
+<div class="tip" hidden></div>
+</div>
+</figure>
+<figure class="chart">
+<figcaption class="chart-head"><span class="chart-title">Average energy per day</span><span class="legend"><span class="key"><span class="sw c0"></span>Player 12</span><span class="key"><span class="sw c1"></span>Player 37</span><span class="key"><span class="sw c2"></span>Player 39</span><span class="key kd"><span class="sw cc0"></span>Control 9</span><span class="key kd"><span class="sw cc1"></span>Control 0</span><span class="key kd"><span class="sw cc2"></span>Control 7</span></span></figcaption>
+<div class="chart-body">
+<svg class="plot" viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Average energy per day" data-n="28" data-ymin="-1" data-ymax="1" data-l="58" data-r="16" data-t="30" data-b="46" data-xlab="Day">
+<line class="axl" x1="58" y1="354" x2="944" y2="354" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="358" text-anchor="end">-1.0</text>
+<line class="gl" x1="58" y1="273" x2="944" y2="273" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="277" text-anchor="end">-0.5</text>
+<line class="axl" x1="58" y1="192" x2="944" y2="192" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="196" text-anchor="end">0.0</text>
+<line class="gl" x1="58" y1="111" x2="944" y2="111" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="115" text-anchor="end">0.5</text>
+<line class="gl" x1="58" y1="30" x2="944" y2="30" shape-rendering="crispEdges"/>
+<text class="tick" x="49" y="34" text-anchor="end">1.0</text>
+<line class="gl" x1="58" y1="354" x2="58" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="58" y="372" text-anchor="middle">0</text>
+<line class="gl" x1="222.1" y1="354" x2="222.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="222.1" y="372" text-anchor="middle">5</text>
+<line class="gl" x1="386.1" y1="354" x2="386.1" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="386.1" y="372" text-anchor="middle">10</text>
+<line class="gl" x1="550.2" y1="354" x2="550.2" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="550.2" y="372" text-anchor="middle">15</text>
+<line class="gl" x1="714.3" y1="354" x2="714.3" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="714.3" y="372" text-anchor="middle">20</text>
+<line class="gl" x1="878.4" y1="354" x2="878.4" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="878.4" y="372" text-anchor="middle">25</text>
+<line class="gl" x1="944" y1="354" x2="944" y2="359" shape-rendering="crispEdges"/>
+<text class="tick" x="944" y="372" text-anchor="middle">27</text>
+<text class="axlab" x="8" y="16">Average energy</text>
+<text class="axlab" x="501" y="392" text-anchor="middle">Day</text>
+<clipPath id="cp70"><rect x="55" y="27" width="892" height="330"/></clipPath>
+<g clip-path="url(#cp70)">
+<polyline class="ln c0" data-name="Player 12" data-vals="0.44794,-0.18255,0.61439,-0.0021548,0.61854,-0.10306,0.53623,0.76477,0.83282,0.54605,0.58919,0.22381,0.4164,0.64487,0.94313,0.84054,0.77931,0.8509,0.61736,0.84865,0.68185,-0.14553" points="58,119.4 90.8,221.6 123.6,92.5 156.4,192.3 189.3,91.8 222.1,208.7 254.9,105.1 287.7,68.1 320.5,57.1 353.3,103.5 386.1,96.6 419,155.7 451.8,124.5 484.6,87.5 517.4,39.2 550.2,55.8 583,65.8 615.9,54.2 648.7,92 681.5,54.5 714.3,81.5 747.1,215.6"/>
+<circle class="dot c0" cx="747.1" cy="215.6" r="4"/>
+<polyline class="ln c1" data-name="Player 37" data-vals="-0.67926,-0.41333,0.5507,0.66755,0.3388,-0.043131,0.0021612,0.89468,0.57095,0.20238,-0.15568,-0.456,-0.34261,-0.67238,-0.92817" points="58,302 90.8,259 123.6,102.8 156.4,83.9 189.3,137.1 222.1,199 254.9,191.6 287.7,47.1 320.5,99.5 353.3,159.2 386.1,217.2 419,265.9 451.8,247.5 484.6,300.9 517.4,342.4"/>
+<circle class="dot c1" cx="517.4" cy="342.4" r="4"/>
+<polyline class="ln c2" data-name="Player 39" data-vals="0.34574,0.20755,-0.12633,-0.45669,-0.78792,-0.97726" points="58,136 90.8,158.4 123.6,212.5 156.4,266 189.3,319.6 222.1,350.3"/>
+<circle class="dot c2" cx="222.1" cy="350.3" r="4"/>
+<polyline class="ln dash cc0" data-name="Control 9" data-vals="-0.4203,-0.7466,-1,-0.086178,0.19937,0.42153,0.2004,-0.14843,0.20863,0.23381,0.83192,0.86765,0.74109,0.74991,0.33253,0.61718,0.70976,0.84221,0.53314,0.87202,0.75469,0.77909,0.78572,0.90523,0.7683,0.40379,-0.061142,-0.2424" points="58,260.1 90.8,312.9 123.6,354 156.4,206 189.3,159.7 222.1,123.7 254.9,159.5 287.7,216 320.5,158.2 353.3,154.1 386.1,57.2 419,51.4 451.8,71.9 484.6,70.5 517.4,138.1 550.2,92 583,77 615.9,55.6 648.7,105.6 681.5,50.7 714.3,69.7 747.1,65.8 779.9,64.7 812.7,45.4 845.6,67.5 878.4,126.6 911.2,201.9 944,231.3"/>
+<circle class="dot cc0" cx="944" cy="231.3" r="4"/>
+<polyline class="ln dash cc1" data-name="Control 0" data-vals="0.49492,0.24429,-0.38604,-0.159,0.11922,0.095748,0.19474,0.14716,0.065515,-0.1045,0.62545,0.77498,0.55294,0.62919,0.79404,0.80427,0.52204,0.2578,0.11132,0.61427,0.45145,-0.0092972,-0.13232,-0.29068,-0.42283" points="58,111.8 90.8,152.4 123.6,254.5 156.4,217.8 189.3,172.7 222.1,176.5 254.9,160.5 287.7,168.2 320.5,181.4 353.3,208.9 386.1,90.7 419,66.5 451.8,102.4 484.6,90.1 517.4,63.4 550.2,61.7 583,107.4 615.9,150.2 648.7,174 681.5,92.5 714.3,118.9 747.1,193.5 779.9,213.4 812.7,239.1 845.6,260.5"/>
+<circle class="dot cc1" cx="845.6" cy="260.5" r="4"/>
+<polyline class="ln dash cc2" data-name="Control 7" data-vals="0.084921,-0.51728,-0.37674,-0.0042831,-0.3013,-0.36915,-0.085295,0.30385,0.7087,0.82984,0.82958,0.16726,-0.70121" points="58,178.2 90.8,275.8 123.6,253 156.4,192.7 189.3,240.8 222.1,251.8 254.9,205.8 287.7,142.8 320.5,77.2 353.3,57.6 386.1,57.6 419,164.9 451.8,305.6"/>
+<circle class="dot cc2" cx="451.8" cy="305.6" r="4"/>
 </g>
 </svg>
 <div class="tip" hidden></div>
@@ -1434,7 +1747,7 @@ footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--ink3)}
 
 </pre>
 </section>
-<footer>Simulation 0 &middot; generated 2026-07-27 11:25:43</footer>
+<footer>Simulation 0 &middot; generated 2026-07-27 11:32:12</footer>
 </div>
 <script>
 
